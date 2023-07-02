@@ -1,0 +1,79 @@
+/* Pagina web */
+html, body{
+    scroll-behavior: smooth;
+    transition: 0.5;
+    overflow-x: hidden;
+}
+
+
+
+/* Navegador y footer */
+nav, footer{
+    background-color: #3e0c44 !important;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+
+/* 1er Parallax*/
+#parallax1 h5 {
+    color: white;
+}
+
+#parallax1 h1 {
+    color: #e91e63;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#parallax1 a{
+    background-color: #ffffff;
+    color: #1a004e;
+}
+
+
+
+/* Secciones de texto */
+h2 {
+    text-align: center;
+}
+
+#text1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text1.section, #text2.section, #text3.section, #text4.section{
+    background-color: #0d041f;
+    color: aliceblue;
+}
+
+p {
+    text-align: justify;
+    color: rgb(167, 145, 247);
+}
+
+
+/* Iconos */
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+
+
+/* Cards */
+.card-content {
+    background-color:rgb(199, 189, 238);
+}
+
+.card-content p {
+    color: #695e7e;
+}
+
+.card-img {
+    aspect-ratio: 1/1;
+}
